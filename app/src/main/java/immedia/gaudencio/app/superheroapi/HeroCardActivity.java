@@ -30,7 +30,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 
 /**
- * @author Robert Matsaneng
+ * @author Gaudencio Solivatore
  * This activity will handle displaying the heros details once user slects them from the list**/
 public class HeroCardActivity extends AppCompatActivity {
 

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Superheroes</string>
+    <string name="api_superheroes">https://superheroapi.com/</string>
+    <string name="api_superheroes_token">10225102627258675</string>
+    <string name="title_activity_hero_card">FullscreenActivity</string>
+    <string name="title_activity_launch">FullscreenActivity</string>
+    <string name="header_launch_activity">Immedia for your favourite heroes</string>
+</resources>

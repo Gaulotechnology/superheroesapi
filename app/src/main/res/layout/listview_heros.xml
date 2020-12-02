@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/cardview_default_elevation"
+    android:paddingTop="@dimen/cardview_default_elevation">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0.5dp">
+
+    <ImageView
+        android:id="@+id/hero_image"
+        android:src="@drawable/ic_captain_murica"
+        android:paddingLeft="10dp"
+        android:layout_width="80dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/heroName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/hero_image"
+        android:layout_toRightOf="@+id/hero_image"
+        android:fontFamily="@font/amaranth"
+        android:maxLines="1"
+        android:gravity="center"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/heroBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heroName"
+            android:layout_alignStart="@+id/heroName"
+            android:layout_alignLeft="@id/heroName"
+            android:fontFamily="@font/amaranth"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:maxLines="1"
+            android:text="House"
+            android:textSize="14sp" />
+
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>
